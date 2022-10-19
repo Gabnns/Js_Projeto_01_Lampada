@@ -1,0 +1,35 @@
+body {
+  margin: 0 auto;
+  padding: 0;
+}
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  margin-top: 150px;
+}
+
+button {
+  width: 90px;
+  justify-content: center;
+  align-items: center;
+}
+#turnOn {
+  border: 1px solid rgb(211, 205, 192);
+}
+#repair {
+  align-items: center;
+  justify-content: center;
+  margin-left: 50px;
+  margin-top: 10px;
+  background-color: rgb(240, 102, 77);
+  border: none;
+}
+#repair:hover {
+  background-color: rgb(245, 141, 122);
+}
+#lamp {
+  transform: rotate(180deg);
+}
